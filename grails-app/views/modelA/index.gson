@@ -1,0 +1,8 @@
+import com.example.ModelA
+
+model {
+	Iterable<ModelA> modelAList
+}
+
+json tmpl.modelA(modelAList ?: [])
+

@@ -1,0 +1,11 @@
+import com.example.ModelA
+
+model {
+	ModelA modelA
+}
+
+json {
+	id modelA.id
+	name modelA.name
+	version modelA.version
+}

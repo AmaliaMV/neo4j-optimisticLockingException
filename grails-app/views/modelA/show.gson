@@ -1,0 +1,7 @@
+import com.example.ModelA
+
+model {
+	ModelA modelA
+}
+
+json tmpl.modelA(modelA)
